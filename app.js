@@ -6,7 +6,7 @@ const bodyParser=require("body-parser")
 const errorMiddleware=require("./middleware/error")
 app.use(cors(
   {
-      origin:['http://localhost:3000',],
+      origin:['http://localhost:3000','https://crud-app-three-phi.vercel.app/'],
       methods:["GET","POST","PUT","DELETE"],
       credentials:true,
   }
